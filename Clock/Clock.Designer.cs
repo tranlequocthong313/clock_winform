@@ -37,13 +37,16 @@
             timer1.Interval = 1000;
             timer1.Tick += timer1_Tick;
             // 
-            // Form1
+            // Clock
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(800, 450);
-            Name = "Form1";
+            ClientSize = new Size(674, 640);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
+            MaximizeBox = false;
+            Name = "Clock";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Paint += Form1_Paint;
             ResumeLayout(false);
